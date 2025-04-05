@@ -1,0 +1,68 @@
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.book-header {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 130px;
+  background-color: #dddddd;
+  height: 30px;
+  align-items: center;
+}
+
+.book-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 150px;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9; 
+  
+}
+.full-text {
+  font-weight: lighter; /* Lighter font weight */
+  font-style: italic; /* Optional: Make it italic for emphasis */
+  color: #777; /* Optional: Lighter color */
+}
+
+.book-cover {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.book-info {
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  gap: 10px;
+
+}
+.book-title, .book-author, .book-year {
+  font-size: 1em;
+  text-align: left;
+}
+
+.book-author,
+.book-year {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+
+.book-year {
+  justify-self: end; /* Align the year to the right */
+}

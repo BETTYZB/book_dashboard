@@ -1,0 +1,49 @@
+.header {
+  background-image: url('https://images.alphacoders.com/133/1339726.png'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px;
+  color: white;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(40, 44, 52, 0.7); /* Dark overlay with slight transparency */
+  z-index: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  position: relative;
+  z-index: 1;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  font-size: 1em;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+button {
+  position: relative;
+  height: 45px;
+  margin-left: 10px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 5px;
+}

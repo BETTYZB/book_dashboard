@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  height: 100vh;
+}
+.content{
+  display: flex;
+  width: 100vw;
+  gap: 30px
+}
